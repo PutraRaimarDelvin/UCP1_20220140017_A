@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Dashboard</title>
+  <style>
+    .greeting {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">A Day In My Life</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Yesterday</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Calender</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+<!-- Header -->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p id="salutation" class="greeting"></p>
+      </div>
+      <div class="col-md-6 text-right">
+        <div id="date-time"></div> 
+        <div id="current-time"></div> 
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide d-flex justify-content-center align-items-center" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block mx-auto" src="harimau.webp" alt="First slide" style="width: 900px;">
+    </div>
+  </div>
+</div>
+
+
+  <!-- Cards -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="tugas.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Tugas Kuliah</h5>
+            <p class="card-text">Setiap hari saya selalu mendapatkan tugas yang begitu menyenangkan dan membingungkan.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="jalan jalan.jpg" alt=" Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Jalan-jalan</h5>
+            <p class="card-text">Pada waktu weekend, saya pergi ke tempat wisata alam untuk membuat otak saya menjadi fresh kembali.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="ibadah.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 the class="card-title">Ibadah</h5>
+            <p class="card-text">Setiap hari saya melaksanakan ibadah sholat 5 waktu karena itu kewajiban saya sebagai seorang muslim.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-4">
+    <p>© 2024 A Day In My Life. All Rights Reserved. Created by: Putra Raimar Delvin</p>
+  </footer>
+</body>
+</html>
